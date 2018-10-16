@@ -187,7 +187,16 @@ class FamilyLearningSkill(MycroftSkill):
                 self.speak('Sorry, I don\'t  know more on {}'.format(member))
             else:
                 self.speak('{} is really {}'.format(member, member_feature))
-                   
+
+#### Add first name of someone                
+    @intent_handler(IntentBuilder("NewFamilyMemberIntent").require("NewFamilyMemberKeyword").require("NewFamilyFirstName"))
+    def handle_someone_feature(self, message):
+  
+        newfirstname = message.data.get('NewFamilyFirstName')
+    
+    print(newfirstname)
+    self.speak(newfirstname)         
+                
     
     def stop(self):
         pass
