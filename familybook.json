@@ -1,0 +1,33 @@
+{
+    "family_dictionary" :{
+        "members": [
+			{
+			"first_name":"Raymond","rank":"father","age":"dead","father":"Gaston","location":"Onesse","feature":""
+			},
+			{
+			"first_name":"Christophe","rank":"son","age":"46","father":"Henri","location":"La Rochelle","feature":""
+			},
+			{
+			"first_name":"Vincent","rank":"son","age":"45","father":"Henri","location":"Thionville","feature":""
+			},
+			{
+			"first_name":"Elodie","rank":"daughter","age":"40","father":"Henri","location":"Fontenay le Comte","feature":""
+			},
+			{
+			"first_name":"Anatole","rank":"grandson","age":"13","father":"Vincent","location":"Thionville","feature":"cute"
+			},
+			{
+			"first_name":"Stephane","rank":"grandson","age":"10","father":"Christophe","location":"La Rochelle","feature":"cute"
+			},
+			{
+			"first_name":"Manon","rank":"granddaughter","age":"13","father":"Christophe","location":"La Rochelle","feature":"pretty"
+			},
+			{
+			"first_name":"Juliette","rank":"granddaughter","age":"11","father":"Vincent","location":"Thionville","feature":"pretty"
+			},
+			{
+			"first_name":"Marc","rank":"uncle","age":"89","father":"Jean","location":"Onesse","feature":""
+			}
+		]
+    }
+}
